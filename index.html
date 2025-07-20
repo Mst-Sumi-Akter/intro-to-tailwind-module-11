@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro To Tailwind CSS</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1>Intro To Tailwind</h1>
+    <h3 class="bg-red-50">Exploring CSS via Utility Class</h3>
+    <p class="font-bold  bg-red-50">This is exciting</p>
+    <section class=" w-1/2 border mx-auto"> 
+        <h3>section title 1</h3>
+        <h3 class="font-bold ">section title 2</h3>
+        <p class="border p-12 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum consequatur quasi, repellendus aut ex enim nostrum quis ullam possimus cum deserunt provident doloribus adipisci voluptatum perspiciatis expedita iste tempora!</p>
+    </section>
+    <!-- responsive section -->
+     <section class="bg-pink-500 md:bg-red-500 lg:bg-yellow-500 "> 
+        <h3 class="">section title 2</h3>
+        <p class=" ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum consequatur quasi, repellendus aut ex enim nostrum quis ullam possimus cum deserunt provident doloribus adipisci voluptatum perspiciatis expedita iste tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum consequatur quasi, repellendus aut ex enim nostrum quis ullam possimus cum deserunt provident doloribus adipisci voluptatum perspiciatis expedita iste tempora</p>
+    </section>
+    <!-- flex layout -->
+     <section class="lg:flex my-10">
+        <div  class="h-20 w-90 text-3xl border bg-red-500">Item 1</div>
+        <div  class="h-20 w-90 text-3xl border bg-red-500">Item 2</div>
+        <div  class="h-20 w-90 text-3xl border bg-red-500">Item 3</div>
+        <div  class="h-20 w-90 text-3xl border bg-red-500">Item 4</div>
+        <div  class="h-20 w-90 text-3xl border bg-red-500">Item 4</div>
+        <div  class="h-20 w-90 text-3xl border bg-red-500">Item 5</div>
+     </section>
+     <section class="flex justify-center">
+         <div  class="h-24 w-24 text-3xl border bg-red-500">Item 1</div>
+        <div  class="h-24 w-24 text-3xl border bg-red-500">Item 2</div>
+        <div  class="h-24 w-24 text-3xl border bg-red-500">Item 3</div>
+     </section>
+     <!-- grid section -->
+      <section class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-5">
+        <div class="lg:row-span-6 bg-pink-300 text-3xl">box-1</div>
+        <div class="bg-pink-300 text-3xl">box-2</div>
+        <div class="col-span-2 bg-pink-300 text-3xl">box-3</div>
+        <div class="bg-pink-300 text-3xl">box-4</div>
+        <div class="bg-pink-300 text-3xl">box-5</div>
+        <div class="bg-pink-300 text-3xl">box-6</div>
+        <div class="bg-pink-300 text-3xl">box-7</div>
+        <div class="bg-pink-300 text-3xl">box-8</div>
+        <div class="bg-pink-300 text-3xl">box-9</div>
+        <div class="bg-pink-300 text-3xl">box-10</div>
+        <div class="bg-pink-300 text-3xl">box-11</div>
+        <div class="bg-pink-300 text-3xl">box-12</div>
+        <div class="bg-pink-300 text-3xl">box-13</div>
+        <div class="bg-pink-300 text-3xl">box-14</div>
+        <div class="bg-pink-300 text-3xl">box-15</div>
+        <div class="bg-pink-300 text-3xl">box-16</div>
+      
+      </section>
+
+    
+</body>
+</html>
